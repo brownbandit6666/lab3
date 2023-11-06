@@ -42,4 +42,10 @@ public class ArrayTests {
     assertArrayEquals(new int[]{4,3,2,1}, input1);
 	}
 
+  @Test 
+	public void testReverseInPlace3() {
+    int[] input1 = {1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1}, input1);
+	}
 }
